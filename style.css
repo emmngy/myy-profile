@@ -1,0 +1,156 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+    width: 700px; /* set the width of your container */
+    margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+/* Card Styling */
+.card-white {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; /* Add space between cards */
+}
+
+/* Profile Image Styling */
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Make it round */
+    border: 5px solid #2ECC71; /* Optional border */
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ECC71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+/* List Inline */
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline > li {
+    display: inline;
+    padding: 0 20px; /* add some left/right padding between list items */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background-color: #2ECC71;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Link Styling */
+a {
+    color: #2ECC71;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #27ae60;
+}
+
+/* Headings Styling */
+h2 {
+    color: #2ECC71;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+/* Footer and Social Media Links */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1.5em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer li a {
+    color: #2ECC71;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer li a:hover {
+    color: #27ae60;
+}
